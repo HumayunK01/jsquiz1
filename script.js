@@ -7,6 +7,7 @@ result = str1 + " " + str2 + " " + str3;
 console.log(result);
 
 // Question No 2:
+console.log("Question 2:");
 var char = 'c'; 
 switch(true){
   case char == 'a' || char == 'e' || char == 'i' || char == 'o' || char == 'u' || char == 'A' || char == 'E' || char == 'I' || char == 'O' || char == 'U':
