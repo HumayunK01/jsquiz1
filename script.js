@@ -40,7 +40,7 @@ no1 = prompt("Enter First Number: ");
 no2 = prompt("Enter Second Number: ");
 operator = prompt("Enter operator(+, -, *, /): ");
 console.log("First Number: " + no1);
-console.log("First Number: " + no2);
+console.log("Second Number: " + no2);
 switch (operator) {
   case "+":
     result = no1 + no2;
