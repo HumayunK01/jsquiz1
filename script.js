@@ -7,25 +7,17 @@ result = str1 + " " + str2 + " " + str3;
 console.log(result);
 
 // Question No 2:
-console.log("Question 2:");
-var enteredAlphabet;
-enteredAlphabet = "d";
-console.log("Entered Alphabet is " + enteredAlphabet);
-switch (enteredAlphabet) {
-  case "a":
-  case "e":
-  case "i":
-  case "o":
-  case "u":
-  case "A":
-  case "E":
-  case "I":
-  case "O":
-  case "U":
-    console.log(enteredAlphabet + " is a vowel");
+var char = 'c'; 
+switch(true){
+  case char == 'a' || char == 'e' || char == 'i' || char == 'o' || char == 'u' || char == 'A' || char == 'E' || char == 'I' || char == 'O' || char == 'U':
+    console.log('Its vowel');
+    break;
+  case (char >= 'a' && char <= 'z') || (char >= 'A' && char <= 'Z'):
+    console.log('Its consonant');
     break;
   default:
-    console.log(enteredAlphabet + " is not a vowel");
+    console.log('Enter Valid Data');
+    break;
 }
 
 // Question No 3:
